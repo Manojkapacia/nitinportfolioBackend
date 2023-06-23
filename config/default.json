@@ -1,0 +1,20 @@
+{
+    "app":{
+        "port":"3000"
+    },
+    "db":{
+        "name" :  "AdminData",
+        "host" : "cluster0.2rby3.mongodb.net",//localhost
+        "auth" : true,
+        "username" : "Manojkapasia",
+        "password" : "manoj123",
+        "port" : 27017,
+        "mongoose": {
+            "useMongoClient": true,
+            "autoIndex": true, // Don't build indexes
+            "poolSize": 10, // Maintain up to 10 socket connections
+            "bufferMaxEntries": 0
+          }
+    }
+
+}
